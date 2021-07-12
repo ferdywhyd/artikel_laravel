@@ -72,8 +72,8 @@
 
             <div class="row">
                 @foreach ($data as $item)
-                {{-- 69 adalah ID author Rahman Nurhidayat --}}
-                @if ($item->author == 69)
+                {{-- 58 adalah ID author ferdy wahyudi --}}
+                @if ($item->author == 58)
                 <div class="col-sm 12 col-md-6">
                     <div id="{{ $item->id }}" class="card text-left my-2">
                         <div class="card-body">
