@@ -86,7 +86,7 @@ class SiteController extends Controller
             $date = date('d-m-Y');
 
             $dataModel['resource'][] = [
-                'author' => '70',
+                'author' => '58',
                 'title' => $title,
                 'content' => $content,
                 'published_at' => $date,
@@ -190,7 +190,7 @@ class SiteController extends Controller
         $email = $req->input('email_author');
 
         $dataModel['resource'][] = [
-            'id' => '70',
+            'id' => '58',
             'name' => $name,
             'email' => $email
         ];
